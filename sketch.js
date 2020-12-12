@@ -74,55 +74,54 @@ const gridFase3 = [
 
 //Função que faz o carregamento das imagens e sons
 function preload() {
-  imgMenu = loadImage('IMAGES/JS(4).png');
-  imgCreditos = loadImage('IMAGES/Créditos.png');
-  imgInstrucoes = loadImage('IMAGES/Instruções.png');
+  imgMenu = loadImage('JS(4).png');
+  imgCreditos = loadImage('Créditos.png');
+  imgInstrucoes = loadImage('Instruções.png');
+  imgPhase = loadImage('YELLOW.jpg')
+  imgFase1 = loadImage('red.jpg');
+  imgFase2 = loadImage('blue.png');
+  imgFase3 = loadImage('green.jpg');
+  
   soundFormats('mp3');
-  audioBackg = loadSound('SOUNDS/Haunt.mp3');
-  soundFormats('mp3');
-  click = loadSound('SOUNDS/Click.mp3');
-  imgPhase = loadImage('IMAGES/YELLOW.jpg')
-  imgFase1 = loadImage('IMAGES/red.jpg');
-  imgFase2 = loadImage('IMAGES/blue.png');
-  imgFase3 = loadImage('IMAGES/green.jpg');
+  audioBackg = loadSound('Haunt.mp3');
+  click = loadSound('Click.mp3');
+  red0 = loadSound('red.mp3');
+  blue0 = loadSound('blue.mp3');
+  black0 = loadSound('black.mp3');
+  grey0 = loadSound('grey.mp3');
+  yellow0 = loadSound('yellow.mp3');
+  brown0 = loadSound('brown.mp3');
+  pink0 = loadSound('pink.mp3');
+  white0 = loadSound('white.mp3');
+  purple0 = loadSound('purple.mp3');
+  orange0 = loadSound('orange.mp3');
+  green0 = loadSound('green.mp3');
   
-  red0 = loadSound('COLORS-AUDIO/red.mp3');
-  blue0 = loadSound('COLORS-AUDIO/blue.mp3');
-  black0 = loadSound('COLORS-AUDIO/black.mp3');
-  grey0 = loadSound('COLORS-AUDIO/grey.mp3');
-  yellow0 = loadSound('COLORS-AUDIO/yellow.mp3');
-  brown0 = loadSound('COLORS-AUDIO/brown.mp3');
-  pink0 = loadSound('COLORS-AUDIO/pink.mp3');
-  white0 = loadSound('COLORS-AUDIO/white.mp3');
-  purple0 = loadSound('COLORS-AUDIO/purple.mp3');
-  orange0 = loadSound('COLORS-AUDIO/orange.mp3');
-  green0 = loadSound('COLORS-AUDIO/green.mp3');
+  ball = loadSound('ball.mp3');
+  bed = loadSound('bed.mp3');
+  book = loadSound('book.mp3');
+  chair = loadSound('chair.mp3');
+  computer = loadSound('computer.mp3');
+  cup = loadSound('cup.mp3');
+  door = loadSound('door.mp3');
+  glasses = loadSound('glasses.mp3');
+  pencil = loadSound('pencil.mp3');
+  piano = loadSound('piano.mp3');
+  spoon = loadSound('spoon.mp3');
   
-  ball = loadSound('OBJECTS-AUDIO/ball.mp3');
-  bed = loadSound('OBJECTS-AUDIO/bed.mp3');
-  book = loadSound('OBJECTS-AUDIO/book.mp3');
-  chair = loadSound('OBJECTS-AUDIO/chair.mp3');
-  computer = loadSound('OBJECTS-AUDIO/computer.mp3');
-  cup = loadSound('OBJECTS-AUDIO/cup.mp3');
-  door = loadSound('OBJECTS-AUDIO/door.mp3');
-  glasses = loadSound('OBJECTS-AUDIO/glasses.mp3');
-  pencil = loadSound('OBJECTS-AUDIO/pencil.mp3');
-  piano = loadSound('OBJECTS-AUDIO/piano.mp3');
-  spoon = loadSound('OBJECTS-AUDIO/spoon.mp3');
+  angry = loadSound('angry.mp3');
+  anxious = loadSound('anxious.mp3');
+  bored = loadSound('bored.mp3');
+  confused = loadSound('confused.mp3');
+  funny = loadSound('funny.mp3');
+  happy = loadSound('happy.mp3');
+  sad = loadSound('sad.mp3');
+  scared = loadSound('scared.mp3');
+  surprised = loadSound('surprised.mp3');
+  tired = loadSound('tired.mp3');
+  worried = loadSound('worried.mp3');
   
-  angry = loadSound('FEELINGS-AUDIO/angry.mp3');
-  anxious = loadSound('FEELINGS-AUDIO/anxious.mp3');
-  bored = loadSound('FEELINGS-AUDIO/bored.mp3');
-  confused = loadSound('FEELINGS-AUDIO/confused.mp3');
-  funny = loadSound('FEELINGS-AUDIO/funny.mp3');
-  happy = loadSound('FEELINGS-AUDIO/happy.mp3');
-  sad = loadSound('FEELINGS-AUDIO/sad.mp3');
-  scared = loadSound('FEELINGS-AUDIO/scared.mp3');
-  surprised = loadSound('FEELINGS-AUDIO/surprised.mp3');
-  tired = loadSound('FEELINGS-AUDIO/tired.mp3');
-  worried = loadSound('FEELINGS-AUDIO/worried.mp3');
-  
-  applause = loadSound('SOUNDS/applause.wav');
+  applause = loadSound('applause.wav');
 }
 //Função que carrega a tela inicial 
 function setup() {
